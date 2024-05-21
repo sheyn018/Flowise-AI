@@ -6,17 +6,28 @@
   - Develop a functional document upload system.
   - Implement an accurate document vectorization process.
   - Integrate with Pinecone for document storage.
-  - Create a user-friendly bot creation interface.
+  - Create a robust bot interaction logic.
+
+#### User Story
+- **User Description:** As a company employee
+- **Need:** I want to upload documents, vectorize them, store them in Pinecone, and create bots to interact with the documents
+- **Benefit Statement:** So that I can efficiently manage and retrieve information from business documents.
 
 #### Success Criteria
 - 95% of uploaded documents are successfully vectorized.
 - 100% integration with Pinecone for document storage and retrieval.
-- Positive feedback from initial internal users on the bot creation feature.
+- Positive feedback from initial internal users on the bot interaction feature.
 - No critical bugs in the final deployment.
 
 #### Project Scope
-- **In-Scope:** Document upload, document vectorization, Pinecone integration, bot creation.
+- **In-Scope:** Document upload, document vectorization, Pinecone integration, bot interaction logic.
 - **Out-of-Scope:** External user access, advanced bot features beyond basic interaction.
+
+#### Key Performance Indicators (KPIs)
+- 95% of uploaded documents are successfully vectorized.
+- 100% integration with Pinecone for document storage and retrieval.
+- Positive feedback from initial internal users on the bot interaction feature.
+- No critical bugs in the final deployment.
 
 #### Stakeholders and Roles
 - **Project Sponsor:** Senior Management
@@ -41,21 +52,29 @@
 4. **Pinecone Integration**
    - Set up environment
    - Develop and test integration
-5. **Bot Creation**
-   - Design UI
+5. **Bot Interaction**
    - Develop backend services
    - Implement bot logic
+   - Ensure bots interact with vectorized documents
 6. **Testing and Deployment**
    - End-to-end testing
    - Bug fixes
    - Deployment preparation
+
+#### Portfolio of Products or Product
+- **Main Product:** Web app for document management and bot interaction
+- **Sub-Products/Features:**
+  - Document Upload Feature
+  - Document Vectorization Service
+  - Pinecone Integration
+  - Document upload and management Interface
 
 #### Milestones
 - Completion of initial planning (Week 1)
 - Document upload feature ready (End of Sprint 1)
 - Document vectorization complete (End of Sprint 2)
 - Pinecone integration finalized (End of Sprint 3)
-- Bot creation feature operational (End of Sprint 4)
+- Bot interaction feature operational (End of Sprint 4)
 - Final testing and deployment (End of Sprint 5)
 
 #### Gantt Chart
@@ -88,6 +107,3 @@
 #### Budget Plan
 - **Estimate:** Detailed cost estimate for resources, tools, and any third-party services.
 - **Cost Management:** Plan to monitor and control project expenses.
-
-### Conclusion
-By including these elements, you'll have a comprehensive project plan that provides clear direction, sets expectations, and ensures that you can measure progress and success effectively.
