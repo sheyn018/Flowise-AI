@@ -1,15 +1,15 @@
 import requests
 
-API_URL = "https://sheyn018-flowise.hf.space/api/v1/vector/upsert/c85c2ccf-fda9-4bcc-acb8-c94b94786bdb"
+API_URL = "https://sjmt-flowise.hf.space/api/v1/vector/upsert/4fce5049-feb5-40c7-bec9-256738aa520c"
 
 # use form data to upload files
 form_data = {
-    "files": ('Sheane.txt', open('Sheane.txt', 'rb'))
+    "files": ('example.txt', open('example.txt', 'rb'))
 }
 body_data = {
-    "openAIApiKey": "",
-    "modelName": "text-embedding-ada-002",
-    "stripNewLines": True,
+    "openAIApiKey": "example",
+    "modelName": "example",
+    "stripNewLines": true,
 }
 
 def query(form_data, body_data):
@@ -17,5 +17,3 @@ def query(form_data, body_data):
     return response.json()
 
 output = query(form_data, body_data)
-
-print(output)
